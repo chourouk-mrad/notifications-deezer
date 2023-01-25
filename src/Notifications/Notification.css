@@ -1,0 +1,24 @@
+.flex-horizontal {
+  display: flex;
+}
+
+.notification {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start !important;
+  width: 100%;
+}
+
+.unreaded {
+  background: rgba(239, 84, 102, 0.1) !important;
+}
+.unreaded:hover {
+  background: rgba(239, 84, 102, 0.1) !important;
+}
+
+.thumbnail {
+  border-radius: 5%;
+  width: 64px;
+  height: 64px;
+}
+
